@@ -1,0 +1,117 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Main container */
+.container {
+    text-align: center;
+    width: 600px;
+}
+
+/* Heading */
+h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Input form */
+.input-tables {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+    margin-bottom: 1px;
+}
+.input-table {
+    width: 100%;
+}
+.input-table td {
+    padding: 0px;
+}
+.input-table input[type="number"] {
+    font-family: monospace;
+    text-align: right;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Button styling with left-right layout */
+.button-row {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Styling for left buttons */
+.left-buttons {
+    display: flex;
+    gap: 5px;
+    width: 50%; /* Takes up left half */
+}
+.left-buttons button {
+    width: 100%;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Styling for Make Me Rich button */
+.right-button {
+    width: 50%; /* Takes up right half */
+}
+.right-button button {
+    width: 100%;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Centered Summary Table styling */
+.summary-table {
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.summary-row {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    justify-content: space-between;
+    padding: 5px;
+}
+.summary-value {
+    text-align: right;
+    flex: 1;
+    padding-right: 10px;
+}
+.summary-label {
+    text-align: left;
+    flex: 1;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+/* Detail Table styling */
+.detail-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: monospace;
+    font-size: 14px;
+    background-color: #ffe5b4;
+}
+.detail-table th {
+    background-color: #ffd9a6;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retirement Calculator</title>
+    <link rel="stylesheet" href="MMRWebApp_CotaCanez_Gerardo.css">
+    <script src="MMRWebApp_CotaCanez_Gerardo.js" defer></script>
+    <script src="FormattingToolsLibrary.js" defer></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Retirement Calculator</h1>
+        
+        <!-- Input Form -->
+        <div class="input-tables">
+            <table class="input-table">
+                <tr><td><input type="number" placeholder="Starting Age" value="25"></td></tr>
+                <tr><td><input type="number" placeholder="Starting Salary" value="50000"></td></tr>
+                <tr><td><input type="number" placeholder="Annual Raise%" value="2.0"></td></tr>
+            </table>
+            <table class="input-table">
+                <tr><td><input type="number" placeholder="Retirement Age" value="65"></td></tr>
+                <tr><td><input type="number" placeholder="Annual Savings%" value="10.0"></td></tr>
+                <tr><td><input type="number" placeholder="Interest Rate%" value="7.0"></td></tr>
+            </table>
+        </div>
+
+        <!-- Buttons with left-right layout -->
+        <div class="button-row">
+            <!-- Left buttons (Clear and Defaults) -->
+            <div class="left-buttons">
+                <button type="button">Clear</button>
+                <button type="button">Defaults</button>
+            </div>
+            <!-- Right button (Make Me Rich!) -->
+            <div class="right-button">
+                <button type="button">Make Me Rich!</button>
+            </div>
+        </div>
+
+        <!-- Centered Summary Table with left/right alignment and spacing -->
+        <div class="summary-table">
+            <div class="summary-row">
+                <span class="summary-value">40</span>
+                <span class="summary-label">Years to invest</span>
+            </div>
+            <div class="summary-row">
+                <span class="summary-value">1,473,440</span>
+                <span class="summary-label">Retirement Fund</span>
+            </div>
+            <div class="summary-row">
+                <span class="summary-value">3,130,501</span>
+                <span class="summary-label">Lifetime Salary</span>
+            </div>
+            <div class="summary-row">
+                <span class="summary-value">313,050</span>
+                <span class="summary-label">Total saved</span>
+            </div>
+            <div class="summary-row">
+                <span class="summary-value">1,160,390</span>
+                <span class="summary-label">Earned Interest</span>
+            </div>
+        </div>
+
+        <!-- Detail Table (First 6 Rows) with peach color -->
+        <table class="detail-table">
+            <tr>
+                <th>Age</th>
+                <th>Salary</th>
+                <th>Savings</th>
+                <th>Interest</th>
+                <th>Retirement</th>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>50,000</td>
+                <td>5,000</td>
+                <td>350</td>
+                <td>5,350</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>51,000</td>
+                <td>5,100</td>
+                <td>732</td>
+                <td>11,182</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>52,020</td>
+                <td>5,202</td>
+                <td>1,147</td>
+                <td>17,530</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>53,060</td>
+                <td>5,306</td>
+                <td>1,599</td>
+                <td>24,435</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>54,122</td>
+                <td>5,412</td>
+                <td>2,089</td>
+                <td>31,936</td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>61</td>
+                <td>101,994</td>
+                <td>10,199</td>
+                <td>71,001</td>
+                <td>1,085,294</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
